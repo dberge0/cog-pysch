@@ -7,7 +7,10 @@ const InstructionsPage: React.FC = () => {
   
     // Function to handle navigation
     const redirectToPage = () => {
-      router.push('/watch_game/task'); // Replace '/target-page' with your desired path
+      router.push('/watching_game/task'); // Replace '/target-page' with your desired path
+    };
+    const redirectToHome = () => {
+      router.push('/'); // Replace '/target-page' with your desired path
     };
   
     return (
@@ -25,6 +28,14 @@ const InstructionsPage: React.FC = () => {
           >
             Proceed
           </button>
+          <div className="pt-4 px-44"> 
+          <button
+            onClick={redirectToHome}
+            className="w-full px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-700 transition duration-200 ease-in-out"
+          >
+            Back
+          </button>
+          </div>
         </div>
       </div>
     );

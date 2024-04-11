@@ -14,21 +14,21 @@ export default function Home() {
 
   return (
     <div className="flex flex-col items-center justify-center min-h-screen bg-gray-100">
-      <header className="text-2xl font-bold text-gray-800">
-        My Header
+      <header className="text-2xl font-bold text-gray-800 pb-8">
+        Welcome to our EPIC experiment!!
       </header>
-      <p className="mb-4 text-gray-600">
-        This is a paragraph tag underneath the header.
+      <p className="mb-4 text-gray-600 pb-24">
+        Please select one of the visual tasks below to begin!!!!!
       </p>
       <div className="flex gap-4">
-        <button onClick={handleRedirect('/playing_game')} className="px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-700 transition ease-in duration-200">
-          Button 1
+        <button onClick={handleRedirect('/watching_game')} className="px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-700 transition ease-in duration-200">
+          Watching Game
         </button>
-        <button onClick={handleRedirect('/watch_game')}className="px-4 py-2 bg-green-500 text-white rounded hover:bg-green-700 transition ease-in duration-200">
-          Button 2
+        <button onClick={handleRedirect('/playing_game')}className="px-4 py-2 bg-green-500 text-white rounded hover:bg-green-700 transition ease-in duration-200">
+        Playing Game
         </button>
-        <button className="px-4 py-2 bg-red-500 text-white rounded hover:bg-red-700 transition ease-in duration-200">
-          Button 3
+        <button onClick={handleRedirect('/reading_task')} className="px-4 py-2 bg-red-500 text-white rounded hover:bg-red-700 transition ease-in duration-200">
+          Reading Task
         </button>
       </div>
     </div>

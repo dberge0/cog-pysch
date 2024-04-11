@@ -7,7 +7,7 @@ const InstructionsPage: React.FC = () => {
   
     // Function to handle navigation
     const redirectToPage = () => {
-      router.push('/playing_game/task'); // Replace '/target-page' with your desired path
+      router.push('/watching_game/task2'); // Replace '/target-page' with your desired path
     };
     const redirectToHome = () => {
       router.push('/'); // Replace '/target-page' with your desired path
@@ -15,18 +15,12 @@ const InstructionsPage: React.FC = () => {
   
     return (
       <div className="flex flex-col items-center justify-center min-h-screen bg-gray-100">
-        <div className="max-w-xl p-4 px-8 pt-4 bg-white shadow-md rounded-lg">
+        <div className="max-w-xl p-4 bg-white shadow-md rounded-lg">
           <div className="mb-4">
-            <h2 className="text-xl font-semibold text-gray-900 pb-4">Instructions</h2>
-            <p className="text-gray-600 leading-7 pb-4">
-            You have selected to playing a game as your primary task. In this experiment, you will participate in two trials. In each trial, you will perform a secondary task. One secondary task is bouncing the ball that you see on the target in front of you. The other is handwriting “My name is ___“, as neatly as possible, over and over on the sheet of paper in front of you. Please choose your first secondary task, which you will start as soon as you proceed to starting the primary task. You will perform the other secondary task in the second trial.
-
-
-
-
-
-
-            </p>
+            <h2 className="text-xl font-semibold text-gray-900">Instructions</h2>
+            <p className="text-gray-600">
+            Get ready to perform your second trial of watching a game. This time, perform the secondary task that you did not just perform (as a reminder, the two secondary tasks are bouncing the ball that you see on the target in front of you or repeatedly handwriting “My name is ___” as neatly as possible on the sheet of paper in front of you
+</p>
           </div>
           <div className="px-44"> 
           <div className="pb-2">
