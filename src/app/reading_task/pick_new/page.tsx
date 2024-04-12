@@ -19,7 +19,7 @@ const InstructionsPage: React.FC = () => {
           <div className="mb-4">
             <h2 className="text-xl font-semibold text-gray-900 pb-4">Instructions</h2>
             <p className="text-gray-600 leading-7 pb-4">
-            Get ready to perform your second trial of playing a game. This time, perform the secondary task that you did not just perform (as a reminder, the two secondary tasks are bouncing the ball that you see on the target in front of you or repeatedly handwriting “My name is ___” as neatly as possible on the sheet of paper in front of you.
+            Get ready to perform your second trial of reading. This time, perform the secondary task that you did not just perform (as a reminder, the two secondary tasks are bouncing the ball that you see on the target in front of you or repeatedly handwriting “My name is ___” as neatly as possible on the sheet of paper in front of you.
 
 
 
