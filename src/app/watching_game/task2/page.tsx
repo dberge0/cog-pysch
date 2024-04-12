@@ -13,7 +13,7 @@ const VideoPage: React.FC = () => {
   useEffect(() => {
     // Set a timeout to redirect after 30 seconds (30000 milliseconds)
     const timer = setTimeout(() => {
-      router.push('/watching_game/results/'); // Redirect to the new path
+      router.push('/watching_game/results2/'); // Redirect to the new path
     }, 30000);
 
     // Cleanup function to clear the timeout if the component unmounts before 30 seconds

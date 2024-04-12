@@ -7,7 +7,7 @@ const InstructionsPage: React.FC = () => {
   
     // Function to handle navigation
     const redirectToPage = () => {
-      router.push('/reading_task/task2'); // Replace '/target-page' with your desired path
+      router.push('/watching_game/task2'); // Replace '/target-page' with your desired path
     };
     const redirectToHome = () => {
       router.push('/'); // Replace '/target-page' with your desired path
@@ -40,7 +40,7 @@ const InstructionsPage: React.FC = () => {
             onClick={redirectToHome}
             className="w-full px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-700 transition duration-200 ease-in-out"
           >
-            Back
+            Back Home
           </button>
           
           </div>

@@ -14,7 +14,7 @@ const FlappyBird: React.FC = () => {
   useEffect(() => {
     // Set a timeout to redirect after 30 seconds (30000 milliseconds)
     const timer = setTimeout(() => {
-      router.push('/playing_game/pick_new/'); // Redirect to the new path
+      router.push('/playing_game/results/'); // Redirect to the new path
     }, 30000);
 
     // Cleanup function to clear the timeout if the component unmounts before 30 seconds

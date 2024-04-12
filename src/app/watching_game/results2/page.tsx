@@ -7,7 +7,7 @@ const InstructionsPage: React.FC = () => {
   
     // Function to handle navigation
     const redirectToPage = () => {
-      router.push('/playing_game/pick_new'); // Replace '/target-page' with your desired path
+      router.push('/reading_task/final_results'); // Replace '/target-page' with your desired path
     };
 
     return (
@@ -16,7 +16,7 @@ const InstructionsPage: React.FC = () => {
       <div className=" m p-12 rounded-2xl bg-white prounded-xl shadow-2xl flex items-center space-x-4">
         <div>
           <p className="text-lg font-medium text-black leading-7 pb-4">
-              Input the color of the snake and click proceed to continue to the next task.
+              Input the number of powerups did the player collect and click proceed to view your results.
           </p>
           <div className="pb-5">
           <input
