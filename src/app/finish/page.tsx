@@ -26,7 +26,6 @@ const InstructionsPage: React.FC = () => {
             <br/><br/>
             Thanks for participating! Return home to try the other trials :)
             <div className='pt-8 flex items-center justify-center'>
-            <Image alt="smiley photo" src="/image.png" width="500" height="500"/>
             </div>
         </p>
           <div className="pb-5">

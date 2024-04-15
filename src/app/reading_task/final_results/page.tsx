@@ -12,7 +12,7 @@ const InstructionsPage: React.FC = () => {
 
     return (
         <div className="flex items-center justify-center h-screen bg-white">
-    <div className="flex p-[25%] items-center justify-center h-screen">
+    <div className="flex p-[10%] items-center justify-center h-screen">
       <div className=" m p-12  rounded-2xl bg-white prounded-xl shadow-2xl flex items-center space-x-4">
         <div>
           <p className="text-lg font-medium text-black pb-4 h-100vm leading-7">

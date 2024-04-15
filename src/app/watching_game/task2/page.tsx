@@ -24,21 +24,13 @@ const VideoPage: React.FC = () => {
   return (
     <div className="flex justify-center items-center h-screen w-screen bg-black">
       <CountdownTimer/>
-      <video
-        src="/subway.MOV"
-        controls
-        autoPlay
-        loop
-        className="w-full h-auto max-w-4xl max-h-full"
-        // Note: Setting 'muted' helps with autoplay in some browsers
-      ></video>
-      <audio
-        src="/audio.mp3"
-        autoPlay
-        loop
-        // You might not want to show controls for the background audio
-        // controls
-      ></audio>
+      <iframe
+  width="1400"
+  height="600"
+  src="https://www.youtube.com/embed/V-Nk1sUmNAQ?autoplay=1&mute=1&enablejsapi=1&controls=1&showinfo=0&modestbranding=1&loop=1&playlist=V-Nk1sUmNAQ"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+ >
+</iframe>
     </div>
   );
 };
